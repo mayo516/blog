@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -12,11 +13,11 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-        Read <Link href="/posts/first-post">this page!</Link>
+        개발자 <Link href="/posts/first-post">김은하입니다!</Link>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          프론트엔드 개발자입니다
         </p>
 
         <div className={styles.grid}>
